@@ -1,4 +1,4 @@
-var CACHE_NAME = 'gsm-clients-v12';
+var CACHE_NAME = 'gsm-clients-v17';
 var FILES_TO_CACHE = [
   './',
   './index.html',
@@ -17,7 +17,7 @@ self.addEventListener('install', function(e) {
   self.skipWaiting();
 });
 
-// 2. Activation : on supprime les anciennes versions v10, v11...
+// 2. Activation : on supprime les anciennes versions v15, v16...
 self.addEventListener('activate', function(e) {
   e.waitUntil(
     caches.keys().then(function(keyList) {
