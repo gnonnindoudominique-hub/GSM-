@@ -1,12 +1,12 @@
 {
-  "name": "ETS Bogasto GSM Info - Clients",
-  "short_name": "GSM Clients",
-  "description": "Gestion clients réparation - Bogasto GSM Info - Gonzague, Bénégosso",
-  "start_url": "./index.html?v=12",
+  "name": "GSM CLIENTS - Bogasto GSM Info",
+  "short_name": "GSM CLIENTS",
+  "description": "Gestion clients réparation - GSM CLIENTS - Port-Bouët, Gonzague, Bénégosso",
+  "start_url": "./index.html?v=17",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#0f172a",
-  "theme_color": "#0f172a",
+  "background_color": "#2563eb",
+  "theme_color": "#2563eb",
   "icons": [
     {
       "src": "icon-192.png",
