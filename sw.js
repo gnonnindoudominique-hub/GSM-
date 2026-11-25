@@ -1,4 +1,4 @@
-var CACHE_NAME = 'gsm-clients-v23';
+var CACHE_NAME = 'gsm-clients-v25';
 var FILES_TO_CACHE = ['./','./index.html','./manifest.json','./icon-512.png','./icon-192.png'];
 self.addEventListener('install', function(e){e.waitUntil(caches.open(CACHE_NAME).then(function(cache){return cache.addAll(FILES_TO_CACHE);}));self.skipWaiting();});
 self.addEventListener('activate', function(e){e.waitUntil(caches.keys().then(function(k){return Promise.all(k.map(function(key){if(key!==CACHE_NAME)return caches.delete(key);}));}));self.clients.claim();});
